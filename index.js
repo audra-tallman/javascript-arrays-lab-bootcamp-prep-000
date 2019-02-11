@@ -31,3 +31,12 @@ function  prependKitten(name) {
   var kitten3 = ["Arnold"]
   return kitten3.concat(kittens)
 }
+function  removeLastKitten(name) {
+  var kittens = ["Milo", "Otis", "Garfield"]
+  return kittens.slice(kittens)
+}
+function  prependKitten(name) {
+  var kittens = ["Milo", "Otis", "Garfield"]
+  var kitten3 = ["Arnold"]
+  return kitten3.concat(kittens)
+}
